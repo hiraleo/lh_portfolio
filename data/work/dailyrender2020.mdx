@@ -1,0 +1,41 @@
+---
+title: 'DR 2020'
+date: '2020-04-01'
+image: '/images/dailyrender2020/thumbnail_dailyrender2020.jpeg'
+client: 'Client: SELF'
+description: 'Some daily renders in 2020.'
+---
+
+<div style={{ lineHeight: 0, marginTop: 40 }}>
+  {[
+    '/images/dailyrender2020/dailyrender_01.png',
+    '/images/dailyrender2020/dailyrender_02.png',
+    '/images/dailyrender2020/dailyrender_03.png',
+    '/images/dailyrender2020/dailyrender_04.png',
+    '/images/dailyrender2020/dailyrender_05.png',
+    '/images/dailyrender2020/dailyrender_06.png',
+    '/images/dailyrender2020/dailyrender_07.png',
+    '/images/dailyrender2020/dailyrender_08.png',
+    '/images/dailyrender2020/dailyrender_09.png',
+    '/images/dailyrender2020/dailyrender_10.png',
+    '/images/dailyrender2020/dailyrender_11.png',
+    '/images/dailyrender2020/dailyrender_12.png',
+    '/images/dailyrender2020/dailyrender_13.png',
+    '/images/dailyrender2020/dailyrender_14.png',
+    '/images/dailyrender2020/dailyrender_15.png',
+    '/images/dailyrender2020/dailyrender_16.png',
+    '/images/dailyrender2020/dailyrender_17.png',
+    '/images/dailyrender2020/dailyrender_18.png',
+    '/images/dailyrender2020/dailyrender_19.png',
+  ].map((url, index) => (
+    <Image
+      key={index}
+      src={url}
+      blurDataURL={url}
+      alt={'test'}
+      width={1280}
+      height={300}
+      placeholder={'blur'}
+    />
+  ))}
+</div>
